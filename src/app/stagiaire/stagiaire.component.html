@@ -30,7 +30,7 @@
     <fieldset class="form-group">
         <label for="last_name">Richesse du cours</label>
         <select class="form-control" id="sel1">
-            <option *ngFor="let item of items"></option>
+            <option *ngFor="let notation of notations">{{notation}}</option>
             <!-- <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -50,5 +50,5 @@
         </select>
     </fieldset>
 
-    <button type="submit" class="btn btn-primary">Envoyer</button>
+    <button type="submit" class="btn bg-red">Envoyer</button>
 </form>

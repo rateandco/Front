@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StagiaireComponent implements OnInit {
 
+  notations: number[] = [1, 2, 3, 4, 5];
   constructor() { }
 
-  const notation = [];
+
   ngOnInit() {
   }
 
